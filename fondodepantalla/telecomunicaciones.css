@@ -1,0 +1,260 @@
+@media(min-width:800px){
+body{
+	background-image: url(imagenes/ciudadcomp.png);
+	background-size: 800px 600px;
+	overflow: hidden;
+}
+}
+@media(min-width:768px){
+body{
+	background-image: url(imagenes/ciudadcomp.png);
+	background-size: 768px 1024px;
+	overflow: hidden;
+}
+}
+@media(min-width:1280px){
+body{
+	background-image: url(imagenes/ciudadcomp.png);
+	background-size: 1280px 1024px;
+	overflow: hidden;
+}
+}
+@media(min-width:1366px){
+body{
+	background-image: url(imagenes/ciudadcomp.png);
+	background-size: 1366px 768px;
+	overflow: hidden;
+}
+}
+@media(min-width:1920px){
+body{
+	background-image: url(imagenes/ciudadcomp.png);
+	background-size: 1920px 1080px;
+	overflow: hidden;
+}
+}
+
+
+
+.nube{
+	width:36.60%;
+	height: 19.74%;
+	background-image: url(imagenes/nube.png);
+	background-size: 100% 100%;
+	margin-top: 1px;
+	position: absolute;
+	z-index: -1;
+	animation: movimientonube ease-out 200s infinite;
+}
+.nube1{
+	width: 36.60%;
+	height: 19.74%;
+	background-image: url(imagenes/nube.png);
+	background-size: 100% 100%;
+	margin-top: 1px;
+	position:absolute;
+	z-index: -1;
+	animation: movimientonube1 ease-out 80s infinite;
+}
+.auto{
+	width: 12.05%;
+	height: 19.74%;
+	background-image: url(imagenes/auto.gif);
+	background-size: 100% 100%;
+	margin-top: 33.58%;
+	position:absolute;
+	z-index: -1;
+	animation: movimientoauto ease-out 80s infinite;
+}
+.antena{
+	width:7.3%;
+	height: 4.3%;
+	background-size: 100% 100%;
+	background-image: url(imagenes/antena.gif);
+	margin-top: 11.08%;
+	margin-left: 15.6%;
+	position: absolute;
+	z-index: -1;
+}
+.antena1{
+	width:7.3%;
+	height: 10.53%;
+	background-size: 100% 100%;
+	background-image: url(imagenes/antena1.gif);
+	margin-top: 23.70%;
+	margin-left: 92.25%;
+	position: absolute;
+	z-index: -1;
+}
+.antenacelular{
+	width:22%;
+	height: 13.15%;
+	background-size: 100% 100%;
+	background-image: url(imagenes/antenacelular.png);
+	margin-top: 11.84%;
+	margin-left: 73.21%;
+	position: absolute;
+	z-index: -1;
+}
+.antenacelular1{
+	width:18.31%;
+	height:13.16% ;
+	background-size: 100% 100%;
+	background-image: url(imagenes/antenacelular.png);
+	margin-top: 11.29%;
+	margin-left: 29.30%;
+	position: absolute;
+	z-index: -1;
+}
+.antenacelular2{
+	width:13.66%;
+	height: 10.53%;
+	background-size: 100% 100%;
+	background-image: url(imagenes/antenacelular.png);
+	margin-top: 15.79%;
+	margin-left: -4.3%;
+	position: absolute;
+	z-index: -1;
+}
+.satelitegira{
+	width:10.99%;
+	height: 13.16%;
+	background-size: 100% 100%;
+	background-image: url(imagenes/satelitegira.gif);
+	margin-top: 2%;
+	margin-left: 62.22%;
+	position: absolute;
+	z-index: -1;
+	animation: movimientosatelite ease-out 200s infinite; 	
+}
+.web{
+	width:14.65%;
+	height: 26.31%;
+	background-size: 100% 100%;
+	background-image: url(imagenes/web.png);
+	margin-top: 41.60%;
+	margin-left: 11%;
+	position: absolute;
+	z-index: -1;
+	animation: movimiento2 ease-out 20s infinite;
+}
+.fono{
+	width:14.65%;
+	height: 26.32%;
+	background-size: 100% 100%;
+	background-image: url(imagenes/fonoverde.png);
+	margin-top: 41.60%;
+	margin-left: 27.11%;
+	position: absolute;
+	z-index: -1;
+	animation: movimiento4 ease-out 20s infinite;
+
+}
+.monitor{
+	width:14.65%;
+	height:26.32%;
+	background-size: 100% 100%;
+	background-image: url(imagenes/monitor.png);
+	margin-top: 41.60%;
+	margin-left: 41.8%;
+	position: absolute;
+	z-index: -1;
+	animation: movimiento2 ease-out 20s infinite;
+	
+}
+.wifi{
+	width:14.65%;
+	height: 26.32%;
+	background-size: 100% 100%;
+	background-image: url(imagenes/wifi.png);
+	margin-top: 41.60%;
+	margin-left: 56.38%;
+	position: absolute;
+	z-index: -1;
+	animation: movimiento4 ease-out 20s infinite;
+	
+}
+
+.satelite{
+	width:14.65%;
+	height: 26.32%;
+	background-size: 100% 100%;
+	background-image: url(imagenes/satelite.png);
+	margin-top: 41.60%;
+	margin-left: 72%;
+	position: absolute;
+	z-index: -1;
+	animation: movimiento2 ease-out 20s infinite;
+	
+}
+
+@keyframes movimientonube{
+	0%{
+		margin-left: 0px;
+	}
+	50%{
+		margin-left: 600px;
+	}
+	100%{
+		margin-left: 0px;
+	}
+}
+@keyframes movimientosatelite{
+	0%{
+		margin-top: -100px;
+	}
+	50%{
+		margin-top: 50px;
+	}
+	100%{
+		margin-top: -100px;
+	}
+}
+@keyframes movimientonube1{
+	0%{
+		margin-left: 600px;
+	}
+	50%{
+		margin-left: 1300px;
+	}
+	100%{
+		margin-left: 600px;
+	}
+}
+@keyframes movimientoauto{
+	0%{
+		margin-left: 0px;
+	}
+	
+	100%{
+		margin-left: 1500px;
+	}
+}
+@keyframes movimiento2{
+
+	0% {
+    transform: scaleX(0.1) scaleY(0.1);
+  }
+  50% {
+    transform: scaleX(1) scaleY(1);
+  }
+
+  100% {
+    transform: scaleX(0.1) scaleY(0.1);
+  }
+	
+}
+@keyframes movimiento4 {
+
+	0% {
+    transform: scaleX(1) scaleY(1);
+  }
+  50% {
+    transform: scaleX(0.1) scaleY(0.1);
+  }
+
+  100% {
+    transform: scaleX(1) scaleY(1);
+  }
+
+}

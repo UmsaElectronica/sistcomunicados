@@ -1,0 +1,133 @@
+@media(min-width:800px){
+body{
+	background-image: url(imagenes/ring.gif);
+	background-size: 800px 600px;
+	overflow: hidden;
+}
+}
+@media(min-width:768px){
+body{
+	background-image: url(imagenes/ring.gif);
+	background-size: 768px 1024px;
+	overflow: hidden;
+}
+}
+@media(min-width:1280px){
+body{
+	background-image: url(imagenes/ring.gif);
+	background-size: 1280px 1024px;
+	overflow: hidden;
+}
+}
+@media(min-width:1366px){
+body{
+	background-image: url(imagenes/ring.gif);
+	background-size: 1366px 768px;
+	overflow: hidden;
+}
+}
+@media(min-width:1920px){
+body{
+	background-image: url(imagenes/ring.gif);
+	background-size: 1920px 1080px;
+	overflow: hidden;
+}
+}
+.mundo{
+	width:36.60%;
+	height: 39.8%;
+	background-image: url(imagenes/mundo.gif);
+	background-size: 100% 100%;
+	margin-top: 30.26%;
+	margin-left: 7.6%;
+	position: absolute;
+	z-index: -1;
+
+}
+.computadoras{
+	width:53.07%;
+	height: 64.48%;
+	background-image: url(imagenes/computadoras.gif);
+	background-size: 100% 100%;
+	margin-top: 23.72%;
+	margin-left: -0.00018%;
+	position: absolute;
+	z-index: -1;
+
+}
+.monitorsurf{
+	width:29.28%;
+	height: 52.63%;
+	background-image: url(imagenes/monitorsurf.gif);
+	background-size: 100% 100%;
+	margin-top: 25.47%;
+	margin-left: 54.90%;
+	position: absolute;
+	z-index: -1;
+	animation: movimientosurf 20s infinite;
+}
+.www{
+	width:18.32%;
+	height: 32.90%;
+	background-image: url(imagenes/www.gif);
+	background-size: 100% 100%;
+	margin-top: 5.5%;
+	margin-left: 3.7%;
+	position: absolute;
+	z-index: -1;
+	animation: movimientowww 40s infinite;
+
+}
+.monitor{
+	width:18.32%;
+	height:32.90%;
+	background-image: url(imagenes/monitor.gif);
+	background-size: 100% 100%;
+	margin-top: 5.5%;
+	margin-left: 62.22%;
+	position: absolute;
+	z-index: -1;
+	animation: movimientomonitor 50s infinite;
+
+}
+
+@keyframes movimientowww{
+	0%{
+		margin-left: 0px;
+	}
+	50%{
+		margin-left: 400px;
+	}
+	100%{
+		margin-left: 0px;
+	}
+}
+@keyframes movimientomonitor{
+	0%{
+		transform:scaleX(0.5) scaleY(0.5);
+		}
+  	50% {
+  	   transform: scaleX(0.9) scaleY(0.9);
+  		}
+	100% {
+  	   transform: scaleX(1.25) scaleY(1.25);
+  		}
+
+}
+
+@keyframes movimientosurf {
+	0%{
+		margin-left: 900px;
+		transform:scaleX(1) scaleY(1.25);
+	}
+  50% {
+  	margin-left: 1100px;
+    transform: scaleX(1.25) scaleY(1);
+  }
+
+  100% {
+  	margin-left: 750px;
+    transform: scaleX(1) scaleY(1.25);
+  }
+
+}

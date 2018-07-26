@@ -1,0 +1,277 @@
+@media(min-width:800px){
+body{
+	background-image: url(imagenes/invierno.jpg);
+	background-size: 800px 600px;
+	overflow: hidden;
+}
+}
+@media(min-width:768px){
+body{
+	background-image: url(imagenes/invierno.jpg);
+	background-size: 768px 1024px;
+	overflow: hidden;
+}
+}
+@media(min-width:1280px){
+body{
+	background-image: url(imagenes/invierno.jpg);
+	background-size: 1280px 1024px;
+	overflow: hidden;
+}
+}
+@media(min-width:1366px){
+body{
+	background-image: url(imagenes/invierno.jpg);
+	background-size: 1366px 768px;
+	overflow: hidden;
+}
+}
+@media(min-width:1920px){
+body{
+	background-image: url(imagenes/invierno.jpg);
+	background-size: 1920px 1080px;
+	overflow: hidden;
+}
+}
+.muñecos{
+	width:18.3%;
+	height: 52.63%;
+	margin-top: 30%;
+	margin-left: 14.64%;
+	background-image: url(imagenes/muñecos.gif);
+	background-size: 100% 100%;
+	position: absolute;
+	animation: movimiento1 ease-out 40s infinite;
+	z-index: -9;
+}	
+.muñeco{
+	width:20%;
+	height: 52.63%;
+	margin-top: 25%;
+	margin-left:100%;
+	background-image: url(imagenes/muñeco.gif);
+	background-size: 100% 100%;
+	position: absolute;
+	animation: movimiento2 ease-out 70s infinite;
+	z-index: -9;
+}	
+.nieve{
+	width:33%;
+	height: 30%;
+	margin-top: 0;
+	margin-left: 0;
+	background-image: url(imagenes/nieve.png);
+	background-size: 100% 100%;
+	position: absolute;
+	animation: movimiento3 ease-out 20s infinite;	
+	z-index: -9;
+}	
+.nieve1{
+	width:33%;
+	height: 30%;
+	margin-top: 0;
+	margin-left: 400px;
+	background-image: url(img/nieve.png);
+	background-size: 100% 100%;
+	position: absolute;
+	animation: movimiento3 ease-out 20s infinite;	
+	z-index: -9;
+}
+.nieve2{
+	width:33%;
+	height: 30%;
+	margin-top: 0;
+	margin-left: 800px;
+	background-image: url(imagenes/nieve.png);
+	background-size: 100% 100%;
+	position: absolute;
+	animation: movimiento3 ease-out 20s infinite;	
+	z-index: -9;
+}
+.nieve3{
+	width:33%;
+	height: 30%;
+	margin-top: 0;
+	margin-left: 1200px;
+	background-image: url(imagenes/nieve.png);
+	background-size: 100% 100%;
+	position: absolute;
+	animation: movimiento3 ease-out 20s infinite;	
+	z-index: -9;
+}
+.nieve_1{
+	width:33%;
+	height: 30%;
+	margin-top: -400px;
+	margin-left: 0;
+	background-image: url(imagenes/nieve.png);
+	background-size: 100% 100%;
+	position: absolute;
+	animation: movimiento4 ease-out 20s infinite;	
+	z-index: -9;
+}	
+.nieve1_1{
+	width:33%;
+	height: 30%;
+	margin-top: -400px;
+	margin-left: 400px;
+	background-image: url(imagenes/nieve.png);
+	background-size: 100% 100%;
+	position: absolute;
+	animation: movimiento4 ease-out 20s infinite;	
+	z-index: -9;
+}
+.nieve2_1{
+	width:33%;
+	height: 30%;
+	margin-top: -400px;
+	margin-left: 800px;
+	background-image: url(imagenes/nieve.png);
+	background-size: 100% 100%;
+	position: absolute;
+	animation: movimiento4 ease-out 20s infinite;	
+	z-index: -9;
+}
+.nieve3_1{
+	width:33%;
+	height: 30%;
+	margin-top: -400px;
+	margin-left: 1200px;
+	background-image: url(imagenes/nieve.png);
+	background-size: 100% 100%;
+	position: absolute;
+	animation: movimiento4 ease-out 20s infinite;	
+	z-index: -9;
+}
+.nieve_2{
+	width:33%;
+	height: 30%;
+	margin-top: 400px;
+	margin-left: 0;
+	background-image: url(imagenes/nieve.png);
+	background-size: 100% 100%;
+	position: absolute;
+	animation: movimiento5 ease-out 20s infinite;	
+	z-index: -9;
+}	
+.nieve1_2{
+	width:33%;
+	height: 30%;
+	margin-top: 400px;
+	margin-left: 400px;
+	background-image: url(imagenes/nieve.png);
+	background-size: 100% 100%;
+	position: absolute;
+	animation: movimiento5 ease-out 20s infinite;	
+	z-index: -9;
+}
+.nieve2_2{
+	width:33%;
+	height: 30%;
+	margin-top: 400px;
+	margin-left: 800px;
+	background-image: url(imagenes/nieve.png);
+	background-size: 100% 100%;
+	position: absolute;
+	animation: movimiento5 ease-out 20s infinite;	
+	z-index: -9;
+}
+.nieve3_2{
+	width:33%;
+	height: 30%;
+	margin-top: 400px;
+	margin-left: 1200px;
+	background-image: url(imagenes/nieve.png);
+	background-size: 100% 100%;
+	position: absolute;
+	animation: movimiento5 ease-out 20s infinite;	
+	z-index: -9;
+}
+.estrella{
+	width:40px;
+	height: 40px;
+	margin-top: 40px;
+	margin-left: 120px;
+	background-image: url(imagenes/estrella.png);
+	background-size: 100% 100%;
+	position: absolute;
+	animation: movimiento6 ease-out 1s infinite;	
+	z-index: -9;
+}
+.estrella1{
+	width:40px;
+	height: 40px;
+	margin-top: 220px;
+	margin-left: 600px;
+	background-image: url(imagenes/estrella.png);
+	background-size: 100% 100%;
+	position: absolute;
+	animation: movimiento6 ease-out 1s infinite;	
+	z-index: -9;
+}
+.estrella2{
+	width:20px;
+	height: 20px;
+	margin-top: 440px;
+	margin-left: 1200px;
+	background-image: url(imagenes/estrella.png);
+	background-size: 100% 100%;
+	position: absolute;
+	animation: movimiento6 ease-out 1s infinite;	
+	z-index: -9;
+}
+.estrella3{
+	width:40px;
+	height: 40px;
+	margin-top: 120px;
+	margin-left: 1000px;
+	background-image: url(imagenes/estrella.png);
+	background-size: 100% 100%;
+	position: absolute;
+	animation: movimiento6 ease-out 1s infinite;	
+	z-index: -9;
+}
+.munn{
+	width:20%;
+	height: 52.63%;
+	margin-top: 30%;
+	margin-left: 50%;
+	background-image: url(imagenes/munn.gif);
+	background-size: 100% 100%;
+	position: absolute;
+	z-index: -9;
+}
+@keyframes movimiento1{
+	0%{margin-left: 26%;}
+	50%{margin-left: 30%;}
+	100%{margin-left: 26%;}
+}
+
+@keyframes movimiento2{
+	0%{margin-left: 100%;}
+	50%{margin-left: 80%;}
+	100%{margin-left: 100%;}
+}
+@keyframes movimiento3{
+	0%{margin-top: 0px;}
+	100%{margin-top: 30%;}
+}
+@keyframes movimiento4{
+	0%{margin-top: -30%;}
+	100%{margin-top: 0px;}
+}
+@keyframes movimiento5{
+	0%{margin-top: 30%;}
+	100%{margin-top: 60%;}
+}
+
+@keyframes movimiento6 {
+  50% {
+    transform: scaleX(0.6) scaleY(0.6);
+  }
+
+  100% {
+    transform: scaleX(1) scaleY(1);
+  }
+
+}

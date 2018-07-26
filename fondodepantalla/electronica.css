@@ -1,0 +1,192 @@
+@media(min-width:800px){
+body{
+	background-image: url(imagenes/fondo.jpg);
+	background-size: 800px 600px;
+	overflow: hidden;
+}
+}
+@media(min-width:768px){
+body{
+	background-image: url(imagenes/fondo.jpg);
+	background-size: 768px 1024px;
+	overflow: hidden;
+}
+}
+@media(min-width:1280px){
+body{
+	background-image: url(imagenes/fondo.jpg);
+	background-size: 1280px 1024px;
+	overflow: hidden;
+}
+}
+@media(min-width:1366px){
+body{
+	background-image: url(imagenes/fondo.jpg);
+	background-size: 1366px 768px;
+	overflow: hidden;
+}
+}
+@media(min-width:1920px){
+body{
+	background-image: url(imagenes/fondo.jpg);
+	background-size: 1920px 1080px;
+	overflow: hidden;
+}
+}
+.escribiendo{
+	width:42.5%;
+	height: 52%;
+	margin-top: 26%;
+	margin-left: 66%;
+	background-image: url(imagenes/estudiante_aplicado.gif);
+	background-size: 100% 100%;
+	position: absolute;
+	z-index: -9;
+
+}	
+.reparador{
+	width:7.32%;
+	height: 13.16%;
+	margin-top: 2%;
+	margin-left: 0px;
+	background-image: url(imagenes/infor4.gif);
+	background-size: 100% 100%;
+	position: absolute;
+	z-index: -9;
+}
+.enchufe{
+	width:93.5%;
+	height: 4%;
+	margin-top: 4%;
+	margin-left: 6%;
+	background-image: url(imagenes/enchufemov.gif);
+	background-size: 100% 100%;
+	position: absolute;
+	z-index: -9;
+}
+.iman{
+	width:7.32%;
+	height: 13.16%;
+	margin-top: 10%;
+	margin-left: 0px;
+	background-image: url(imagenes/iman01.gif);
+	background-size: 100% 100%;
+	position: absolute;
+	animation: movimiento4 ease-out 60s infinite;
+	z-index: -9;
+}
+.iman1{
+	width:7.32%;
+	height: 13.16%;
+	margin-top: 20%;
+	margin-left: 0px;
+	background-image: url(imagenes/iman01.gif);
+	background-size: 100% 100%;
+	position: absolute;
+	animation: movimiento4 ease-out 60s infinite;
+	z-index: -9;
+}
+.iman2{
+	width:7.32%;
+	height: 13.16%;
+	margin-top: 30%;
+	margin-left: 0px;
+	background-image: url(imagenes/iman01.gif);
+	background-size: 100% 100%;
+	position: absolute;
+	animation: movimiento4 ease-out 60s infinite;
+	z-index: -9;
+}
+.iman3{
+	width:7.32%;
+	height: 13.16%;
+	margin-top: 40%;
+	margin-left: 0px;
+	background-image: url(imagenes/iman01.gif);
+	background-size: 100% 100%;
+	position: absolute;
+	animation: movimiento4 ease-out 60s infinite;
+	z-index: -9;
+}
+.iman4{
+	width:7.32%;
+	height: 13.16%;
+	margin-top: 50%;
+	margin-left: 0px;
+	background-image: url(imagenes/iman01.gif);
+	background-size: 100% 100%;
+	position: absolute;
+	animation: movimiento4 ease-out 60s infinite;
+	z-index: -9;
+}
+.iman5{
+	width:7.32%;
+	height: 13.16%;
+	margin-top: 60%;
+	margin-left: 0px;
+	background-image: url(imagenes/iman01.gif);
+	background-size: 100% 100%;
+	position: absolute;
+	animation: movimiento4 ease-out 60s infinite;
+	z-index: -9;
+}
+.iman6{
+	width:7.32%;
+	height: 13.16%;
+	margin-top: 70%;
+	margin-left: 0px;
+	background-image: url(imagenes/iman01.gif);
+	background-size: 100% 100%;
+	position: absolute;
+	animation: movimiento4 ease-out 60s infinite;
+	z-index: -9;
+}
+.iman7{
+	width:7.32%;
+	height: 13.16%;
+	margin-top: 80%;
+	margin-left: 0px;
+	background-image: url(imagenes/iman01.gif);
+	background-size: 100% 100%;
+	position: absolute;
+	animation: movimiento4 ease-out 60s infinite;
+	z-index: -9;
+}
+.led{
+	width:14.64%;
+	height: 26.32%;
+	margin-top: 40%;
+	margin-left: 10%;
+	background-image: url(imagenes/led-intermitente.gif);
+	background-size: 100% 100%;
+	position: absolute;
+	z-index: -9;
+}
+.amplificador{
+	width:14.64%;
+	height: 26.32%;
+	margin-top: 40%;
+	margin-left: 25%;
+	background-image: url(imagenes/amplificador.png);
+	background-size: 100% 100%;
+	position: absolute;
+	z-index: -9;
+}
+.flash{
+	width:14.64%;
+	height: 26.32%;
+	margin-top: 40%;
+	margin-left: 40%;
+	background-image: url(imagenes/flash.gif);
+	background-size: 100% 100%;
+	position: absolute;
+	z-index: -9;
+}
+
+
+@keyframes movimiento4{
+	0%{margin-left: 0px;}
+	50%{margin-left: 10px;margin-top: +100px}
+	100%{margin-left: 0px;}
+}
+

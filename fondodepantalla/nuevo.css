@@ -1,0 +1,35 @@
+@media(min-width:800px){
+body{
+	background-image: url(imagenes/nuevo.jpg);
+	background-size: 800px 600px;
+	overflow: hidden;
+}
+}
+@media(min-width:768px){
+body{
+	background-image: url(imagenes/nuevo.jpg);
+	background-size: 768px 1024px;
+	overflow: hidden;
+}
+}
+@media(min-width:1280px){
+body{
+	background-image: url(imagenes/nuevo.jpg);
+	background-size: 1280px 1024px;
+	overflow: hidden;
+}
+}
+@media(min-width:1366px){
+body{
+	background-image: url(imagenes/nuevo.jpg);
+	background-size: 1366px 768px;
+	overflow: hidden;
+}
+}
+@media(min-width:1920px){
+body{
+	background-image: url(imagenes/nuevo.jpg);
+	background-size: 1920px 1080px;
+	overflow: hidden;
+}
+}

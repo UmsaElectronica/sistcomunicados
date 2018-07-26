@@ -1,0 +1,115 @@
+
+@media(min-width:800px){
+body{
+	background-image: url(imagenes/control.jpg);
+	background-size: 800px 600px;
+	overflow: hidden;
+}
+}
+@media(min-width:768px){
+body{
+	background-image: url(imagenes/control.jpg);
+	background-size: 768px 1024px;
+	overflow: hidden;
+}
+}
+@media(min-width:1280px){
+body{
+	background-image: url(imagenes/control.jpg);
+	background-size: 1280px 1024px;
+	overflow: hidden;
+}
+}
+@media(min-width:1366px){
+body{
+	background-image: url(imagenes/control.jpg);
+	background-size: 1366px 768px;
+	overflow: hidden;
+}
+}
+@media(min-width:1920px){
+body{
+	background-image: url(imagenes/control.jpg);
+	background-size: 1920px 1080px;
+	overflow: hidden;
+}
+}
+.internet{
+	width:25.63%;
+	height: 40%;
+	background-image: url(imagenes/internet.png);
+	background-size: 100% 100%;
+	margin-top: 12.66%;
+	margin-left: 36.66%;
+	position: absolute;
+	z-index: -1;
+	animation:movimientointernet 10s infinite;
+}
+.light{
+	width:25.63%;
+	height: 39.47%;
+	background-image: url(imagenes/light.png);
+	background-size: 100% 100%;
+	margin-top: 28%;
+	margin-left: 37.30%;
+	position: absolute;
+	z-index: -1;
+	animation:movimientolight 10s infinite;
+}
+.light1{
+	width:18.30%;
+	height: 26.31%;
+	background-image: url(imagenes/light.png);
+	background-size: 100% 100%;
+	margin-top: 28.50%;
+	margin-left: 9.3%;
+	position: absolute;
+	z-index: -1;
+	animation:movimientolight1 10s infinite;
+}
+.light2{
+	width:18.30%;
+	height: 26.31%;
+	background-image: url(imagenes/light.png);
+	background-size: 100% 100%;
+	margin-top: 28.50%;
+	margin-left: 71.8%;
+	position: absolute;
+	z-index: -1;
+	animation:movimientolight1 10s infinite;
+}
+@keyframes movimientolight{
+	0%{
+		transform:scaleX(0.2) scaleY(0.2);
+		}
+
+	50% {
+  	   transform: scaleX(1) scaleY(1);
+  		}
+	100% {
+  	   transform: scaleX(0.2) scaleY(0.2);
+  		}
+}
+@keyframes movimientolight1{
+	0%{
+		transform:scaleX(0.2) scaleY(0.2);
+		}
+
+	50% {
+  	   transform: scaleX(0.8) scaleY(0.8);
+  		}
+	100% {
+  	   transform: scaleX(0.2) scaleY(0.2);
+  		}
+}
+@keyframes movimientointernet{
+	0%{
+		transform:scaleX(0.9) scaleY(0.9);
+		}
+	50% {
+  	   transform: scaleX(1) scaleY(1);
+  		}
+	100% {
+  	   transform: scaleX(0.9) scaleY(0.9);
+  		}
+}
